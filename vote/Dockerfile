@@ -1,6 +1,3 @@
-RUN chgrp -R 0 /app && \
-    chmod -R g=u /app 
-
 # Using official python runtime base image
 FROM python:3.9-slim
 
